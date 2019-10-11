@@ -1,0 +1,1 @@
+INDEX VERSION 1.129+C:\Users\mardisaa\Desktop\Algorithms & OO Design\Projects\text-adventure-mckinley1-mardisaa2-master\text-adventure-mckinley-mardisaa2\TextAdventure\.metadata\.plugins\org.eclipse.jdt.core

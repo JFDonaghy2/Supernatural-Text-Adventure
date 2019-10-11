@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server hostname="localhost" id="Container Development Environment" id-set="true" name="Container Development Environment" org.jboss.tools.openshift.cdk.server.core.internal.adapter.CDKServer.passCredentials="true" org.jboss.tools.openshift.cdk.server.core.internal.adapter.CDKServer.username="mr.mardis93@gmail.com" org.jboss.tools.openshift.cdk.server.core.internal.adapter.FOLDER="C:\DevelopmentSuite\cdk\components\rhel\rhel-ose" server-type="org.jboss.tools.openshift.cdk.server.type" server-type-id="org.jboss.tools.openshift.cdk.server.type" start-timeout="1800" stop-timeout="900" timestamp="0"/>
+</servers>
