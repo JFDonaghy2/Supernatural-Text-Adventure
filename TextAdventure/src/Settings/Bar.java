@@ -139,7 +139,8 @@ public class Bar extends Location {
                     }
                 }
             } else if (s.equalsIgnoreCase("brady")) {
-                System.out.println("Brady: \"Hey, Sam. How are you doing? \n"
+                System.out.println("Brady: \"Hey, Sam. How are you doing?\n"
+                        + "Sorry that I can't stay for the party. I have my first day at Niveus tomorrow.\n"
                         + "Man, Jessica sure looks smokin' hot tonight, doesn't she?\"");
             } else if (s.equalsIgnoreCase("skip")) {
                 System.out.println("\"This has really been a great night, but I really think"

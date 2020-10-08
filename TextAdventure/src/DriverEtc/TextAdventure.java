@@ -84,7 +84,8 @@ public class TextAdventure {
         } else if (p.getName().equalsIgnoreCase("John")) {
             return (p.getProgress("AnOriginStory"));
         } else if (p.getName().equalsIgnoreCase("Sam")) {
-            return (p.getItem("A healthy, independent brotherly relationship") != null);
+            return (p.getProgress("DadsOnAHuntingTrip"));
+//            return (p.getItem("A healthy, independent brotherly relationship") != null);
         } else {
             return false;
         }
@@ -245,8 +246,10 @@ public class TextAdventure {
         if (!sam.isAlive()) {
             System.out.println("\nYou have died. Game over!\n");
         } else if (naturalEnding(sam)) {
-            System.out.println("\nCongratulations! You win! "
-                    + "This is actually a pretty rare thing to do.\n");
+            System.out.println("Thank you for playing the preview of the very unofficial Supernatural Text Adventure!"
+                    + "\nPlease come back again later for updates.");
+//            System.out.println("\nCongratulations! You win! "
+//                    + "This is actually a pretty rare thing to do.\n");
         }
         in.close();
     }

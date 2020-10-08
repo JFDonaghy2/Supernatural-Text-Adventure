@@ -70,6 +70,9 @@ public class Nursery extends Location {
         friendlies.add(new Friendly("Mary", "Just hanging around. Get it?"));
         //		friendlies.add(new Friendly("Sam", "Your precious baby boy"));
         this.enemies = new ArrayList<Monster>();
+        enemies.add(new Monster("Fire", "A great heat source, but not "
+                + "what you need right now.", 33, 100, "Tsss",
+                new Item("", ""), 0));
         waits = 0;
     }
 
@@ -113,9 +116,6 @@ public class Nursery extends Location {
             switch (waits) {
                 case 1:
                     System.out.println("Fire begins to consume the room.");
-                    enemies.add(new Monster("Fire", "A great heat source, but not "
-                            + "what you need right now", 33, 100, "Tsss",
-                            new Item("", ""), 0));
                     p.attackedBy(enemies.get(0));
                     break;
                 case 2:

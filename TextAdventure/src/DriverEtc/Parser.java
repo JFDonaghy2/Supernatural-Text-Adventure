@@ -249,9 +249,9 @@ public class Parser {
     }
 
     public void goTo(String s, Player p) {
-        if (s.endsWith("north") && curLoc.getN() != null) {
+        if ((s.endsWith("north") || s.endsWith("upstairs")) && curLoc.getN() != null) {
             TextAdventure.changeRoom(curLoc.getN(), p);
-        } else if (s.endsWith("south") && curLoc.getS() != null) {
+        } else if ((s.endsWith("south") || s.endsWith("downstairs")) && curLoc.getS() != null) {
             TextAdventure.changeRoom(curLoc.getS(), p);
         } else if (s.endsWith("east") && curLoc.getE() != null) {
             TextAdventure.changeRoom(curLoc.getE(), p);

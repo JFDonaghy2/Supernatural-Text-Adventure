@@ -101,7 +101,7 @@ public class MasterBedroom extends Location {
                     System.out.println(info);
                     break;
                 case 3:
-                    info = "Really? Are you not going to go?!?"
+                    info = "Really? Are you not going to go?!? "
                             + "You might not be a very good parent.";
                     System.out.println(info);
                     break;
@@ -110,12 +110,15 @@ public class MasterBedroom extends Location {
                     System.out.println(info);
                     friendlies.add(new Friendly("John", "Your loving husband.\n"
                             + "Currently upset about being awoken by your crying baby."));
-                    System.out.println("\nDid you not hear Sam crying?, he says.");
+                    System.out.println("\nDid you not hear Sam crying?, he asks.");
                     break;
                 case 5:
                     info = "You might want to speak to John.";
+                    System.out.println(info);
+                    break;
                 default:
                     info = "Hopefully your marraige will survive this.";
+                    System.out.println(info);
                     break;
             }
         } else if (p.getName().equalsIgnoreCase("John")) {

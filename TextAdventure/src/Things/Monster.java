@@ -61,6 +61,10 @@ public class Monster {
     }
 
     public void attackMonster(Weapon w, Player p) {
+        if (name.equalsIgnoreCase("fire")) {
+            System.out.println("You can only fight fire with fire, smokey.");
+            return;
+        }
         System.out.println(p.getName() + " attacks " + name
                 + " with " + p.getPronoun() + " " + w.getName() + "."
                 + " It caused " + w.getAttack() + " damage!");
